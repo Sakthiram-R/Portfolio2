@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #2d3e50;
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+            background-size: cover;
+            background-position: center;
+        }
+
+        header h1 {
+            font-size: 3.5rem;
+            font-weight: 600;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        .btn-primary {
+            background-color: #ff6f61;
+            color: white;
+            font-size: 1.1rem;
+            padding: 15px 30px;
+            border-radius: 30px;
+            border: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            background-color: #e04f45;
+        }
+
+        section {
+            padding: 60px 0;
+        }
+
+        section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        section p {
+            font-size: 1.1rem;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        footer {
+            background-color: #2d3e50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer a {
+            color: #ff6f61;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header Section -->
+<header>
+    <div class="container">
+        <h1>Welcome to My Landing Page</h1>
+        <p>Your journey to learning begins here. Explore and discover amazing content!</p>
+        <a href="#about" class="btn btn-primary">Learn More</a>
+    </div>
+</header>
+
+<!-- About Section -->
+<section id="about" class="bg-light">
+    <div class="container text-center">
+        <h2>About Me</h2>
+        <p>I am a passionate web developer dedicated to creating beautiful, responsive websites that provide seamless user experiences. With a strong foundation in front-end technologies and a growing knowledge of back-end development, I am constantly improving my skills to build better web applications.</p>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="bg-white">
+    <div class="container text-center">
+        <h2>My Projects</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="project1.jpg" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 1</h5>
+                        <p class="card-text">"Looking for the perfect place to eat? Our restaurant website offers a seamless dining experience with features that allow you to browse menus, make reservations, and place orders. The site showcases various dining options with photos, reviews, and location details, helping you find exactly what you're craving. With an easy-to-use interface and responsive design, finding your next meal is just a click away."</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="tourism.jpg" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 2</h5>
+                        <p class="card-text">"Plan your dream vacation with our interactive tourism website! Whether you're exploring local attractions or planning a trip abroad, this platform offers in-depth guides to top tourist destinations, travel tips, booking options, and more. Users can access comprehensive travel information, book tours and hotels, and find everything they need to make their trips memorable and hassle-free. Explore the world with ease from the comfort of your home."</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="event1.png" class="card-img-top" alt="Project 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 3</h5>
+                        <p class="card-text">"Discover and manage your favorite events with ease! This responsive events platform allows users to explore, register, and stay updated on the latest events in their city. Whether it's a concert, seminar, or festival, you can find detailed event listings, view timings and locations, and even book tickets—all in one place. Designed with user experience in mind, the website features a clean and modern layout for easy navigation."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer>
+    <p>&copy; 2024 Sakthiram. All rights reserved.</p>
+    <p>Follow me on <a href="https://www.linkedin.com" target="_blank">LinkedIn</a> | <a href="https://github.com" target="_blank">GitHub</a></p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
